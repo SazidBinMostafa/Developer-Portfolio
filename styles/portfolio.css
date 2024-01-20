@@ -261,3 +261,58 @@ textarea {
     width: 50%;
     margin-right: 100px;
 }
+
+
+
+/* Small and Medium device */
+@media screen and (max-width:992px) {
+    /* Header */
+    header{
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+    }
+    .header-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    /* Navbar */
+    nav {
+        margin: 0;
+    }
+    .about-info-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* What I do */
+    .skills{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .summarydiv{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .education {
+        margin-right: 0px;
+    }
+    /* Footer */
+    footer{
+        padding: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-column {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .footer-heading{
+        text-align: center;
+    }
+}
+
